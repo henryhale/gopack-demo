@@ -22,7 +22,7 @@ jobs:
           go-version: stable
 
       - name: Build and package binaries 
-        uses: henryhale/gopack@v1
+        uses: henryhale/gopack@v1.0.0
         with:
           path: "."
           dest: "./dist/"
