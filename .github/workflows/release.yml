@@ -24,6 +24,7 @@ jobs:
       - name: Build and package binaries 
         uses: henryhale/gopack@v1.0.0
         with:
+          name: "helloworld"
           path: "."
           dest: "./dist/"
           ldflags: "-s -w"
