@@ -1,2 +1,4 @@
 # gopack-demo
-A gopack example in action 
+
+An example showing [gopack](https://github.com/henryhale/gopack) in action.
+ 
