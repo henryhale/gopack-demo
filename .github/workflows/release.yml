@@ -22,12 +22,13 @@ jobs:
           go-version: stable
 
       - name: Build and package binaries 
-        uses: henryhale/gopack@v1.0.2
+        uses: henryhale/gopack@v1.0.3
         with:
           name: "helloworld"
           path: "."
           dest: "./dist/"
           ldflags: "-s -w"
+          includeVersion: true
 
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v2
